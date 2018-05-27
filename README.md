@@ -1,10 +1,12 @@
 A Tensorflow implementation of news multi-classification.
 
 Dataset:
+
     (1). 9980 labeled news title, a total of 7 labels are included.
     (2). pre-trained word embeddings, using word2vec, skip-gram, embedding dimension is 100
 
 Requirements:
+
     Python>=3.5
     TensorFlow>=1.5
     Numpy
