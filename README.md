@@ -38,11 +38,13 @@ Usage:
     test.txt: news_headline \t news_text \n, the news_text can not exit
 
 Tricks:
+
     1. use translate and shuffle sentence to extend corpus
     2. construct an artificial features just using keyword matching(details can be found in preprocess/artificial_feature.py)
 
 
 Results:
+
     on 500 dev set, accuracy is 76.5%
     for each classification, the result is :
     label   label_dec           accuracy        precision       recall
@@ -55,5 +57,6 @@ Results:
     6       机场图                  92.8%
 
 ToDo:
+
     (1). use some extra features like the num of pictures, the news_text
     (2). use a big corpus to train the neural network
